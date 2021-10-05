@@ -7,7 +7,7 @@
 5. Hard SVM using Quadratic Programming
 6. Soft SVM using Quadration Programming
 7. Soft SVM using SGD
-8. Adaboost
+8. Adaboost classifier
 
 
 9. Appied ai course codes
