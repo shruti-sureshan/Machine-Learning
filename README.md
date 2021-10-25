@@ -21,3 +21,7 @@
 https://jakevdp.github.io/PythonDataScienceHandbook/05.12-gaussian-mixtures.html
 https://github.com/ScienceKot/mysklearn/blob/master/Gaussian%20Mixture%20Models/GMM.py
 https://jakevdp.github.io/PythonDataScienceHandbook/05.09-principal-component-analysis.html
+http://ethen8181.github.io/machine-learning/clustering/GMM/GMM.html
+https://www.analyticsvidhya.com/blog/2019/10/gaussian-mixture-models-clustering/
+https://www.geeksforgeeks.org/gaussian-mixture-model/
+silhoutte score: https://www.youtube.com/watch?v=WsGNJYCxwNM
