@@ -27,3 +27,4 @@ https://www.geeksforgeeks.org/gaussian-mixture-model/
 silhoutte score: https://www.youtube.com/watch?v=WsGNJYCxwNM
 <br/>
 https://www.kaggle.com/bburns/iris-exploration-pca-k-means-and-gmm-clustering
+https://github.com/vincent27hugh/Cluster-Kmeans-EMGMM-PCA
