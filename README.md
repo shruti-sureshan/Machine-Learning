@@ -25,3 +25,5 @@ http://ethen8181.github.io/machine-learning/clustering/GMM/GMM.html
 https://www.analyticsvidhya.com/blog/2019/10/gaussian-mixture-models-clustering/
 https://www.geeksforgeeks.org/gaussian-mixture-model/
 silhoutte score: https://www.youtube.com/watch?v=WsGNJYCxwNM
+<br/>
+https://www.kaggle.com/bburns/iris-exploration-pca-k-means-and-gmm-clustering
