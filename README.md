@@ -9,13 +9,12 @@
 7. Soft SVM using Quadration Programming
 8. Soft SVM using SGD
 9. Adaboost classifier
-10. K means
-11. GMM
-12. PCA
+10. K means, GMM, PCA
+11. Neural Network
 
-
-13. Appied ai course codes
-14. Andrew ng course python codes
+********************************************************
+1. Appied ai course codes
+2. Andrew ng course python codes
 
 
 https://jakevdp.github.io/PythonDataScienceHandbook/05.12-gaussian-mixtures.html
