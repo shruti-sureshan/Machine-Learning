@@ -27,3 +27,7 @@ silhoutte score: https://www.youtube.com/watch?v=WsGNJYCxwNM
 <br/>
 https://www.kaggle.com/bburns/iris-exploration-pca-k-means-and-gmm-clustering
 https://github.com/vincent27hugh/Cluster-Kmeans-EMGMM-PCA
+
+
+NN:
+https://machinelearningmastery.com/pytorch-tutorial-develop-deep-learning-models/
