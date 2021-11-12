@@ -34,9 +34,13 @@ NN:
 https://machinelearningmastery.com/pytorch-tutorial-develop-deep-learning-models/
 https://medium.com/@benjamin.phillips22/simple-regression-with-neural-networks-in-pytorch-313f06910379
 
-Best: https://github.com/kwanit1142/Machine-Learning-Models-on-different-scenarios/blob/main/Multi-Layer%20Perceptron%2C%20K-Means%20Clustering%20and%20Neural%20Network/Multi-Layer%20Perceptron%2C%20K-Means%20Clustering%20and%20Neural%20Networks.ipynb
+
 
 https://www.reneshbedre.com/blog/pytorch-regression.html
 https://www.datahubbs.com/deep-learning-101-first-neural-network-with-pytorch/
 https://analyticsindiamag.com/guide-to-feed-forward-network-using-pytorch-with-mnist-dataset/
 https://rubikscode.net/2021/08/02/pytorch-for-beginners-building-neural-networks/
+
+
+
+Best: https://github.com/kwanit1142/Machine-Learning-Models-on-different-scenarios/blob/main/Multi-Layer%20Perceptron%2C%20K-Means%20Clustering%20and%20Neural%20Network/Multi-Layer%20Perceptron%2C%20K-Means%20Clustering%20and%20Neural%20Networks.ipynb
