@@ -36,3 +36,4 @@ https://medium.com/@benjamin.phillips22/simple-regression-with-neural-networks-i
 https://www.reneshbedre.com/blog/pytorch-regression.html
 https://www.datahubbs.com/deep-learning-101-first-neural-network-with-pytorch/
 https://analyticsindiamag.com/guide-to-feed-forward-network-using-pytorch-with-mnist-dataset/
+https://rubikscode.net/2021/08/02/pytorch-for-beginners-building-neural-networks/
