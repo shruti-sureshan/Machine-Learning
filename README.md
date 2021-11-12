@@ -32,3 +32,4 @@ https://github.com/vincent27hugh/Cluster-Kmeans-EMGMM-PCA
 
 NN:
 https://machinelearningmastery.com/pytorch-tutorial-develop-deep-learning-models/
+https://medium.com/@benjamin.phillips22/simple-regression-with-neural-networks-in-pytorch-313f06910379
