@@ -10,7 +10,8 @@
 8. Soft SVM using SGD
 9. Adaboost classifier
 10. K means, GMM, PCA
-11. Neural Network
+11. Neural Network -  Classification
+12. NN -Regression
 
 ********************************************************
 1. Appied ai course codes
