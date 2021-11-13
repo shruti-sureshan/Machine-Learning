@@ -47,3 +47,4 @@ Best: https://github.com/kwanit1142/Machine-Learning-Models-on-different-scenari
 
 https://github.com/gaditi123/ML_classifier_collection/blob/main/Neural%20Network%20and%20Clustering/B19EE003_Lab07.ipynb
 
+RRegression: https://www.machinecurve.com/index.php/2021/07/20/how-to-create-a-neural-network-for-regression-with-pytorch/
