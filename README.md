@@ -44,3 +44,6 @@ https://rubikscode.net/2021/08/02/pytorch-for-beginners-building-neural-networks
 
 
 Best: https://github.com/kwanit1142/Machine-Learning-Models-on-different-scenarios/blob/main/Multi-Layer%20Perceptron%2C%20K-Means%20Clustering%20and%20Neural%20Network/Multi-Layer%20Perceptron%2C%20K-Means%20Clustering%20and%20Neural%20Networks.ipynb
+
+https://github.com/gaditi123/ML_classifier_collection/blob/main/Neural%20Network%20and%20Clustering/B19EE003_Lab07.ipynb
+
