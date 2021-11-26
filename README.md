@@ -16,7 +16,9 @@
 ********************************************************
 1. Appied ai course codes
 2. Andrew ng course python codes
-
+3. Project: Handwritten digit recognizer
+4. Gesture recognizer
+5. 
 
 https://jakevdp.github.io/PythonDataScienceHandbook/05.12-gaussian-mixtures.html
 https://github.com/ScienceKot/mysklearn/blob/master/Gaussian%20Mixture%20Models/GMM.py
