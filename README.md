@@ -18,7 +18,7 @@
 2. Andrew ng course python codes
 3. Project: Handwritten digit recognizer
 4. Gesture recognizer
-5. 
+5. Paper publish on Cancer dataset svm types
 
 https://jakevdp.github.io/PythonDataScienceHandbook/05.12-gaussian-mixtures.html
 https://github.com/ScienceKot/mysklearn/blob/master/Gaussian%20Mixture%20Models/GMM.py
