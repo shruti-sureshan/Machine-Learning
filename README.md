@@ -1,52 +1,44 @@
 # Machine-Learning
 
-1. Halfspace classifier using LP solver
-2. Halfspace classifier using Perceptron algorithm
-3. Logistic regression with gradient descent
-4. Linear Regression using Pseudo Inverse method
-5. Linear Regression using Gradient Descent
-6. Hard SVM using Quadratic Programming
-7. Soft SVM using Quadration Programming
-8. Soft SVM using SGD
-9. Adaboost classifier
-10. K means, GMM, PCA
-11. Neural Network -  Classification
-12. NN -Regression
+**1. Halfspace classifier and Logistic regression** <br/>
+Choose an appropriate dataset of your choice such that every record (example) has at least 5 features which are numeric in nature and there is at least one attribute (feature) which is binary in nature. You can use the binary attribute as the binary target label to be predicted. In case you want to use a target variable which has more than two distinct values, then you can map them into two sets and give label 1 to one of the sets and 0 to the other. Thus, a multiclass classification task can be reduced to binary classification task. plit your dataset into a training set and a test set. You can try different splits: 70:30 (70% training, 30% testing), 80:20 or 90:10 split.
+On the training set, train the following classifiers:
+- Half Space classifier implemented using LP solver (one such solver is scipy.optimize.linprog)
+- Half Space classifier implemented using Perceptron Algorithm (implement the iterations)
+- Logistic Regression Classifier  (with Gradient descent for optimization)
 
-********************************************************
-1. Appied ai course codes
-2. Andrew ng course python codes
-3. Project: Handwritten digit recognizer
-4. Gesture recognizer
-5. Paper publish on Cancer dataset svm types
-
-https://jakevdp.github.io/PythonDataScienceHandbook/05.12-gaussian-mixtures.html
-https://github.com/ScienceKot/mysklearn/blob/master/Gaussian%20Mixture%20Models/GMM.py
-https://jakevdp.github.io/PythonDataScienceHandbook/05.09-principal-component-analysis.html
-http://ethen8181.github.io/machine-learning/clustering/GMM/GMM.html
-https://www.analyticsvidhya.com/blog/2019/10/gaussian-mixture-models-clustering/
-https://www.geeksforgeeks.org/gaussian-mixture-model/
-silhoutte score: https://www.youtube.com/watch?v=WsGNJYCxwNM
-<br/>
-https://www.kaggle.com/bburns/iris-exploration-pca-k-means-and-gmm-clustering
-https://github.com/vincent27hugh/Cluster-Kmeans-EMGMM-PCA
+**2. Linear Regression**<br/>
+Select an appropriate dataset, select the independent features (input features) and the dependent feature (target feature), perform dataset split and train a linear regression classifier. Solve for the parameters of the machine using the following:
+- Peudo-Iverse method 
+- Gradient descent to minimize the squared error loss
 
 
-NN:
-https://machinelearningmastery.com/pytorch-tutorial-develop-deep-learning-models/
-https://medium.com/@benjamin.phillips22/simple-regression-with-neural-networks-in-pytorch-313f06910379
+**3. Support Vector Machine**<br/>
+Use a dataset of your  choice and implement the following:
+- Hard SVM learning rule by solving a Quadratic Program using the convex optimization package cvxopt_solvers.qp
+- Soft SVM learning rule using  cvxopt_solvers.qp
+- SVM using the stochastic gradient descent algorithm for optimization<br/>
+
+For implementing the Hard SVM learning rule, the dataset needs to be made linearly separable by removing some of the training points. For each experiment, identify the training data points which are the support vectors.  <br/>
+For the soft SVM formulation conduct experiments with different values of the regularization parameter and interpret the results in terms of number of support vectors, margin value, training data and test data classification accuracy.<br/>
 
 
-
-https://www.reneshbedre.com/blog/pytorch-regression.html
-https://www.datahubbs.com/deep-learning-101-first-neural-network-with-pytorch/
-https://analyticsindiamag.com/guide-to-feed-forward-network-using-pytorch-with-mnist-dataset/
-https://rubikscode.net/2021/08/02/pytorch-for-beginners-building-neural-networks/
+**4. Adaboost**<br/>
+Implement the Adaboost classifier for classifying examples in a 2D space. You can randomly generate examples in a limited region of the 2D space. Arbitrarily assign binary labels {-1, +1} to the examples. Train Adaboost using the weak hypothesis class as decision stumps in either of the feature axes of the 2D space. Vary the number of stages of Adaboost and note the effect on the performance. Also plot the decision boundary formed by the output hypothesis of Adaboost. Facilitate visualization of the training examples, their labels and the decision boundary. Prepare a report describing the experiments conducted, observations and interpretations. Your implementation should include the explicit steps of learning the weak classifier at each stage, computing the error rate of the weak classifier, updating the weight distribution for the examples after every stage and finally formulating the halfspace over the predictions of the weak classifiers.
 
 
+**5. K means, GMM and PCA**<br/>
+Using a suitable dataset, apply the K-means algorithm for various values of k and choose an appropriate number of clusters using the Silhoutte Score.<br/>
+Obtain Gaussian clusters on the same dataset by using GMM. For EM algorithm, initialize the centroid positions using K-means.<br/>
+Use PCA to project the data on two dimensions and visualize the clustering output for both Kmeans and GMM.<br/>
+For GMM, compare the results for various forms of the Covariance matrix (Full, diagonal, identity).<br/>
 
-Best: https://github.com/kwanit1142/Machine-Learning-Models-on-different-scenarios/blob/main/Multi-Layer%20Perceptron%2C%20K-Means%20Clustering%20and%20Neural%20Network/Multi-Layer%20Perceptron%2C%20K-Means%20Clustering%20and%20Neural%20Networks.ipynb
 
-https://github.com/gaditi123/ML_classifier_collection/blob/main/Neural%20Network%20and%20Clustering/B19EE003_Lab07.ipynb
+**6. Neural Network using PyTorch**<br/>
+Implement a Neural Network using PyTorch for the following:
+- Classification task 
+- Regression task.
 
-RRegression: https://www.machinecurve.com/index.php/2021/07/20/how-to-create-a-neural-network-for-regression-with-pytorch/
+Use a dataset of your choice and report the results with different architectures (i.e. changing the number of nodes, layers etc).<br/>
+Plot the accuracy on the validation set and the training set as a function of the training epoch number. 
+
