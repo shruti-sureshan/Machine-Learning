@@ -9,8 +9,8 @@ On the training set, train the following classifiers:
 
 **2. Linear Regression**<br/>
 Select an appropriate dataset, select the independent features (input features) and the dependent feature (target feature), perform dataset split and train a linear regression classifier. Solve for the parameters of the machine using the following:
-- Peudo-Iverse method 
-- Gradient descent to minimize the squared error loss
+- Peudo-Inverse method 
+- Gradient Descent to minimize the squared error loss
 
 
 **3. Support Vector Machine**<br/>
